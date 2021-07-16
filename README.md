@@ -1,1 +1,2 @@
-# 100-days-of-code
+# | 100 days of code |
+**Winners never quit, and quitters never win.**
