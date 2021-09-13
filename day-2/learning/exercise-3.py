@@ -1,20 +1,12 @@
 # 🚨 Don't change the code below 👇
-year = int(input("Which year do you want to check? "))
+age = input("What is your current age?\n")
 # 🚨 Don't change the code above 👆
 
 # Write your code below this line 👇
 
-print(year % 4 == 0)
-print(year % 100 == 0)
-print(year % 400 == 0)
+years = 90 - int(age)
+days = years * 365
+weeks = years * 52
+months = years * 12
 
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("It is a leap year.")
-        else:
-            print("Not a leap year.")
-    else:
-        print("It is a leap year.")
-else:
-    print("Not a leap year.")
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")

@@ -1,7 +1,18 @@
-print("Welcome to the rollercoaster!")
-height = int(input("What is your height in cm? "))
+# String
 
-if height >= 120:
-    print("You can ride the rollercoaster!")
-else:
-    print("Sorry, you have to grow taller before you can ride.")
+print("Hello"[4])
+
+# Integer
+
+print(123 + 345)
+
+print(1_000_000)
+
+# Float
+
+3.14159
+
+# Boolean
+
+print(True)
+print(False)

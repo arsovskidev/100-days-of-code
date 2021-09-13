@@ -1,14 +1,12 @@
-print("Welcome to the rollercoaster!")
-height = int(input("What is your height in cm? "))
-age = int(input("What is your age? "))
+# name_chars = len(input("What is your name?\n"))
 
-if height >= 120:
-    print("You can ride the rollercoaster!")
-    if age < 12:
-        print("Your ticket costs $5.")
-    elif age <= 18:
-        print("Your ticket costs $7.")
-    else:
-        print("Your ticket costs $12.")
-else:
-    print("Sorry, you have to grow taller before you can ride.")
+# print(type(name_chars))
+
+# string_name_chars = str(name_chars)
+
+# print("Your name has " + string_name_chars + " characters.")
+
+# print(type(string_name_chars))
+
+a = float(123)
+print(type(a))

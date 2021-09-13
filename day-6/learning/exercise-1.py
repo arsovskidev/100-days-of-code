@@ -1,21 +1,24 @@
-# Step 1
+# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
 
-import random
 
-word_list = ["aardvark", "baboon", "camel"]
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
 
-# TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 
-chosen_word = random.choice(word_list)
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
 
-# TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 
-guess = input("Guess a letter: ").lower()
-
-# TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-
-for letter in chosen_word:
-    if letter == guess:
-        print("Right")
+while not at_goal():
+    if wall_in_front():
+        jump()
     else:
-        print("Wrong")
+        move()

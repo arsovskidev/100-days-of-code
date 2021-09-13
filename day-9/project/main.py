@@ -1,59 +1,42 @@
+from os import system, name
 from art import logo
 
 
-def add(n1, n2):
-    return n1 + n2
+def clear():
+    if name == "nt":
+        _ = system("cls")
+    else:
+        _ = system("clear")
 
 
-def subtract(n1, n2):
-    return n1 - n2
+def find_winner(bidders):
+    winner_name = ""
+    winner_bid = 0
 
+    for bidder in bidders:
+        if bidders[bidder] > winner_bid:
+            winner_name = bidder
+            winner_bid = bidders[bidder]
 
-def multiply(n1, n2):
-    return n1 * n2
+    print(f"Winner is {winner_name} with a bid of ${winner_bid}")
 
-
-def devide(n1, n2):
-    return n1 / n2
-
-
-operations = {
-    "+": add,
-    "-": subtract,
-    "*": multiply,
-    "/": devide,
-}
-
-chaining = True
 
 print(logo)
 
-num1 = float(input("What's the first number?: "))
+bidders = {}
+running = True
 
-for symbol in operations:
-    print(symbol)
+while running:
+    name = input("What is your name? ")
+    bid = int(input("How much will you bid? $"))
 
-operation_symbol = input("Pick an operation from the line above: ")
+    bidders[name] = bid
 
-num2 = float(input("What's the second number?: "))
+    status = input("Are there any other users wo want to bid? 'yes' or 'no'\n")
 
-result = operations[operation_symbol](num1, num2)
-
-print(f"{num1} {operation_symbol} {num2} = {result}")
-
-while chaining:
-    flag = input(
-        f"Type 'y' to continue calculating with {result}, or type 'n' to exit: "
-    ).lower()
-
-    if flag != "y":
-        chaining = False
-        print("Goodbye!")
-        break
-
-    operation_symbol = input("Pick an operation: ")
-    next_number = float(input("What's the next number?: "))
-
-    old_result = result
-    result = operations[operation_symbol](result, next_number)
-    print(f"{old_result} {operation_symbol} {next_number} = {result}")
+    if status == "no":
+        clear()
+        running = False
+        find_winner(bidders)
+    else:
+        clear()

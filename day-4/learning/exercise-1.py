@@ -1,19 +1,11 @@
-# 🚨 Don't change the code below 👇
-student_heights = input("Input a list of student heights ").split()
-for n in range(0, len(student_heights)):
-    student_heights[n] = int(student_heights[n])
+# Write your code below this line 👇
+# Hint: Remember to import the random module first. 🎲
 
-# 🚨 Don't change the code above 👆
+import random
 
-# Write your code below this row 👇
+random_int = random.randint(0, 1)
 
-total = 0
-students = 0
-
-for x in student_heights:
-    total += x
-    students += 1
-
-avg = round(total / students)
-
-print(avg)
+if random_int:
+    print("Heads")
+else:
+    print("Tails")

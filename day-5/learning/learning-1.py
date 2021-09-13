@@ -1,5 +1,4 @@
-def my_function():
-    print("Hello")
-    print("World")
+fruits = ["Apple", "Peach", "Pear"]
 
-my_function()
+for fruit in fruits:
+    print(fruit)

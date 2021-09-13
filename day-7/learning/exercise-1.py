@@ -1,17 +1,21 @@
-# Write your code below this line 👇
-import math
+# Step 1
 
-def paint_calc(height, width, cover):
-    area = height * width
-    number_of_cans = math.ceil(area / cover)
-    print(f"You'll need {number_of_cans} cans of paint.")
+import random
 
+word_list = ["aardvark", "baboon", "camel"]
 
-# Write your code above this line 👆
-# Define a function called paint_calc() so that the code below works.
+# TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 
-# 🚨 Don't change the code below 👇
-test_h = int(input("Height of wall: "))
-test_w = int(input("Width of wall: "))
-coverage = 5
-paint_calc(height=test_h, width=test_w, cover=coverage)
+chosen_word = random.choice(word_list)
+
+# TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+
+guess = input("Guess a letter: ").lower()
+
+# TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
+    else:
+        print("Wrong")

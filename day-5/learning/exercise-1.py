@@ -1,24 +1,19 @@
-# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+# 🚨 Don't change the code below 👇
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
 
+# 🚨 Don't change the code above 👆
 
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
+# Write your code below this row 👇
 
+total = 0
+students = 0
 
-def jump():
-    turn_left()
-    move()
-    turn_right()
-    move()
-    turn_right()
-    move()
-    turn_left()
+for x in student_heights:
+    total += x
+    students += 1
 
+avg = round(total / students)
 
-while not at_goal():
-    if wall_in_front():
-        jump()
-    else:
-        move()
+print(avg)

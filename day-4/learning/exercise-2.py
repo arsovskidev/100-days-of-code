@@ -1,16 +1,16 @@
-# 🚨 Don't change the code below 👇
-student_scores = input("Input a list of student scores ").split()
-for n in range(0, len(student_scores)):
-    student_scores[n] = int(student_scores[n])
-print(student_scores)
+# Split string method
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
-# Write your code below this row 👇
+# Write your code below this line 👇
 
-highest_score = 0
+import random
 
-for student_score in student_scores:
-    if student_score > highest_score:
-        highest_score = student_score
+number_of_names = len(names)
+random = random.randint(0, number_of_names - 1)
 
-print(f"The highest score in the class is: {highest_score}")
+result = names[random]
+# result = random.choice(names)
+
+print(f"{result} is going to buy the meal today!")

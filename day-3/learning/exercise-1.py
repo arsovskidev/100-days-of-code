@@ -1,11 +1,10 @@
+# 🚨 Don't change the code below 👇
+number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
+
 # Write your code below this line 👇
-# Hint: Remember to import the random module first. 🎲
 
-import random
-
-random_int = random.randint(0, 1)
-
-if random_int:
-    print("Heads")
+if number % 2 == 0:
+    print("This is an even number.")
 else:
-    print("Tails")
+    print("This is an odd number.")

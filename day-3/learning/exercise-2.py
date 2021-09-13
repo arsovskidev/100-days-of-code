@@ -1,16 +1,23 @@
-# Split string method
-names_string = input("Give me everybody's names, separated by a comma. ")
-names = names_string.split(", ")
+# 🚨 Don't change the code below 👇
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
 # 🚨 Don't change the code above 👆
 
 # Write your code below this line 👇
+height = float(height)
+weight = int(weight)
 
-import random
+bmi = round(weight / height ** 2, 2)
 
-number_of_names = len(names)
-random = random.randint(0, number_of_names - 1)
+if bmi < 18.5:
+    status = "underweight"
+elif bmi < 25:
+    status = "normal weight"
+elif bmi < 30:
+    status = "overweight"
+elif bmi < 35:
+    status = "obese"
+else:
+    status = "clinically obese"
 
-result = names[random]
-# result = random.choice(names)
-
-print(f"{result} is going to buy the meal today!")
+print(f"Your BMI is {bmi} and you are {status}.")

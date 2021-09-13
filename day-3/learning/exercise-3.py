@@ -1,20 +1,20 @@
 # 🚨 Don't change the code below 👇
-row1 = ["⬜️", "⬜️", "⬜️"]
-row2 = ["⬜️", "⬜️", "⬜️"]
-row3 = ["⬜️", "⬜️", "⬜️"]
-map = [row1, row2, row3]
-print(f"{row1}\n{row2}\n{row3}")
-position = input("Where do you want to put the treasure? ")
+year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
 
-# Write your code below this row 👇
+# Write your code below this line 👇
 
-input_col = int(position[0]) - 1
-input_row = int(position[1]) - 1
+print(year % 4 == 0)
+print(year % 100 == 0)
+print(year % 400 == 0)
 
-map[input_row][input_col] = "X"
-
-# Write your code above this row 👆
-
-# 🚨 Don't change the code below 👇
-print(f"{row1}\n{row2}\n{row3}")
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("It is a leap year.")
+        else:
+            print("Not a leap year.")
+    else:
+        print("It is a leap year.")
+else:
+    print("Not a leap year.")

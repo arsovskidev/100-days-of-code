@@ -1,10 +1,7 @@
-import random
-import module
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
 
-random_int = random.randint(1, 5)
-# print(module.pi)
-
-print(random.random() * random_int)
-
-love_score = random.randint(1, 100)
-print(f"Your love score is {love_score}")
+if height >= 120:
+    print("You can ride the rollercoaster!")
+else:
+    print("Sorry, you have to grow taller before you can ride.")

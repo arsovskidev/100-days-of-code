@@ -1,13 +1,11 @@
-# 🚨 Don't change the code below 👇
-two_digit_number = input("Type a two digit number: ")
-# 🚨 Don't change the code above 👆
-
-####################################
 # Write your code below this line 👇
 
-first_digit = int(two_digit_number[0])
-second_digit = int(two_digit_number[1])
+print("Day 1 - Python Print Function")
+print("The function is declared like this:")
+print("print('what to print')")
 
-result = str(first_digit + second_digit)
+print(
+    "Day 1 - Python Print Function\nThe function is declared like this:\nprint('what to print')"
+)
 
-print(result)
+print("Hello" + " " + "Filip")

@@ -1,8 +1,16 @@
-# for number in range(2, 100, 2):
-#     print(number)
+fruits = ["apple", "banana", "kiwi"]
+print(fruits)
 
-total = 0
-for number in range(1, 101):
-    total += number
+# Edit existing item.
+fruits[1] = "orange"
+print(fruits)
 
-print(total)
+# Adding an item at the end of the list.
+fruits.append("mango")
+print(fruits)
+
+# Adding list at the end.
+fruits.extend(["pineapple", "watermelon"])
+print(fruits)
+
+print(fruits.apple())

@@ -1,11 +1,12 @@
-# Functions with Outputs
+programming_dictionary = {
+    "Bug": "An error in a program that prevents the program from running as expected.",
+    "Function": "A piece of code that you can easily call over and over again.",
+}
 
+# Retrieving items from dictionary.
+print(programming_dictionary["Bug"])
 
-def format_name(f_name, l_name):
-    if f_name == "" or l_name == "":
-        return "You didn't provide valid inputs."
-    else:
-        return f"{f_name} {l_name}".title()
+# Adding new items to dictionary.
+programming_dictionary["Loop"] = "The action of doing smoething over and over again"
 
-
-print(format_name("filip", "arsovski"))
+print(programming_dictionary)

@@ -1,42 +1,38 @@
-from os import system, name
-from art import logo
+import caesar
 
+print(caesar.logo)
 
-def clear():
-    if name == "nt":
-        _ = system("cls")
-    else:
-        _ = system("clear")
-
-
-def find_winner(bidders):
-    winner_name = ""
-    winner_bid = 0
-
-    for bidder in bidders:
-        if bidders[bidder] > winner_bid:
-            winner_name = bidder
-            winner_bid = bidders[bidder]
-
-    print(f"Winner is {winner_name} with a bid of ${winner_bid}")
-
-
-print(logo)
-
-bidders = {}
 running = True
 
+
+def caesar(text, shift_amount, direction):
+    result = ""
+
+    if direction == "decode":
+        shift_amount *= -1
+
+    for char in text:
+        if char in caesar.alphabet:
+            new_index = caesar.alphabet.index(char)
+            result += caesar.alphabet[new_index + shift_amount]
+        else:
+            result += char
+
+    print(f"The {direction}d text is {result}")
+
+
 while running:
-    name = input("What is your name? ")
-    bid = int(input("How much will you bid? $"))
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
 
-    bidders[name] = bid
+    shift = shift % 26
+    caesar(text, shift, direction)
 
-    status = input("Are there any other users wo want to bid? 'yes' or 'no'\n")
+    status = input(
+        "\nType 'yes' if you want to go again. Otherwise type 'no'.\n"
+    ).lower()
 
     if status == "no":
-        clear()
         running = False
-        find_winner(bidders)
-    else:
-        clear()
+        print("Goodbye!")

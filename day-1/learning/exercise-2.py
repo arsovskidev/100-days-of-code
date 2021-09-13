@@ -1,13 +1,11 @@
-# 🚨 Don't change the code below 👇
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-# 🚨 Don't change the code above 👆
+# Fix the code below 👇
 
-# Write your code below this line 👇
+# print(Day 1 - String Manipulation")
+# print("String Concatenation is done with the "+" sign.")
+#   print('e.g. print("Hello " + "world")')
+# print(("New lines can be created with a backslash and n.")
 
-height = float(height)
-weight = int(weight)
-
-bmi = weight / height ** 2
-
-print(int(bmi))
+print("Day 1 - String Manipulation")
+print('String Concatenation is done with the " + " sign.')
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")

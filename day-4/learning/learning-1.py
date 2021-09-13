@@ -1,4 +1,10 @@
-fruits = ["Apple", "Peach", "Pear"]
+import random
+import module
 
-for fruit in fruits:
-    print(fruit)
+random_int = random.randint(1, 5)
+# print(module.pi)
+
+print(random.random() * random_int)
+
+love_score = random.randint(1, 100)
+print(f"Your love score is {love_score}")

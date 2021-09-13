@@ -1,38 +1,55 @@
-import caesar
-
-print(caesar.logo)
-
-running = True
-
-
-def caesar(text, shift_amount, direction):
-    result = ""
-
-    if direction == "decode":
-        shift_amount *= -1
-
-    for char in text:
-        if char in caesar.alphabet:
-            new_index = caesar.alphabet.index(char)
-            result += caesar.alphabet[new_index + shift_amount]
-        else:
-            result += char
-
-    print(f"The {direction}d text is {result}")
+from os import system, name
+import random
+import art
+import words
 
 
-while running:
-    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-    text = input("Type your message:\n").lower()
-    shift = int(input("Type the shift number:\n"))
+def clear():
+    if name == "nt":
+        _ = system("cls")
+    else:
+        _ = system("clear")
 
-    shift = shift % 26
-    caesar(text, shift, direction)
 
-    status = input(
-        "\nType 'yes' if you want to go again. Otherwise type 'no'.\n"
-    ).lower()
+chosen_word = random.choice(words.word_list)
+word_length = len(chosen_word)
 
-    if status == "no":
-        running = False
-        print("Goodbye!")
+end_of_game = False
+lives = 6
+guessed_letters = []
+
+print(art.logo)
+
+display = []
+for _ in range(word_length):
+    display += "_"
+
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+
+    clear()
+
+    if guess in guessed_letters:
+        print("You have already tried this letter, try another one!")
+
+    guessed_letters.append(guess)
+
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
+
+    if guess not in chosen_word:
+        print(f"You guessed {guess}, that's not in the word. You lose a life")
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You lose.")
+
+    print(f"{' '.join(display)}")
+
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
+
+    print(art.stages[lives])

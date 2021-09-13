@@ -1,54 +1,32 @@
-# Write your code below this line 👇
+# Step 2
 
+import random
 
-def prime_checker(number):
-    flag = 0
-    for check in range(1, number + 1):
-        if number % check == 0:
-            flag += 1
+word_list = ["aardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
 
-    if flag > 2:
-        print("It's not a prime number.")
-    else:
-        print("It's a prime number.")
+# Testing code
+print(f"Pssst, the solution is {chosen_word}.")
 
+# TODO-1: - Create an empty List called display.
+# For each letter in the chosen_word, add a "_" to 'display'.
+# So if the chosen_word was "apple", display should be ["_", "_", "_", "_", "_"] with 5 "_" representing each letter to guess.
 
-# Write your code above this line 👆
+display = []
+guess = input("Guess a letter: ").lower()
 
-# Tests
-import unittest
-from unittest.mock import patch
-from io import StringIO
+for _ in chosen_word:
+    display.append("_")
 
+# TODO-2: - Loop through each position in the chosen_word;
+# If the letter at that position matches 'guess' then reveal that letter in the display at that position.
+# e.g. If the user guessed "p" and the chosen word was "apple", then display should be ["_", "p", "p", "_", "_"].
 
-class MyTest(unittest.TestCase):
-    # Testing Print output
-    def test_1(self):
-        with patch("sys.stdout", new=StringIO()) as fake_out:
-            prime_checker(87)
-            expected_print = "It's not a prime number.\n"
-            self.assertEqual(fake_out.getvalue(), expected_print)
+for position in range(len(chosen_word)):
+    letter = chosen_word[position]
+    if letter == guess:
+        display[position] = letter
 
-    def test_2(self):
-        with patch("sys.stdout", new=StringIO()) as fake_out:
-            prime_checker(97)
-            expected_print = "It's a prime number.\n"
-            self.assertEqual(fake_out.getvalue(), expected_print)
-
-    def test_3(self):
-        with patch("sys.stdout", new=StringIO()) as fake_out:
-            prime_checker(66)
-            expected_print = "It's not a prime number.\n"
-            self.assertEqual(fake_out.getvalue(), expected_print)
-
-    def test_4(self):
-        with patch("sys.stdout", new=StringIO()) as fake_out:
-            prime_checker(47)
-            expected_print = "It's a prime number.\n"
-            self.assertEqual(fake_out.getvalue(), expected_print)
-
-
-print("\n")
-print("Running some tests on your code:")
-print(".\n.\n.\n.")
-unittest.main(verbosity=1, exit=False)
+# TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
+# Hint - Don't worry about getting the user to guess the next letter. We'll tackle that in step 3.
+print(display)
