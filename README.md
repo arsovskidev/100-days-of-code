@@ -18,7 +18,7 @@
 - :white_check_mark: [Day 9](day-9): Dictionaries, Nesting and the Secret Auction
 - :white_check_mark: [Day 10](day-10): Function Return Values and the Calculator Project
 - :checkered_flag: [Day 11](day-11): Blackjack Capstone Project
-- :x: [Day 12](x): ~~Scope and Namespacing in Python~~
+- :white_check_mark: [Day 12](x): Scope and Namespacing in Python
 - :x: [Day 13](x): ~~Debugging: How to Find and Fix Errors in your Code~~
 - :x: [Day 14](x): ~~Higher Lower Game Project~~
 
