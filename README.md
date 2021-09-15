@@ -1,25 +1,25 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/11/)
+  ![](http://progress-bar.dev/13/)
   
 </div>
 
 ## 👨🏻‍🎓 Beginner
 
-- :white_check_mark: [Day 1](day-1): Working with Variables in Python to Manage Data
-- :white_check_mark: [Day 2](day-2): Understanding Data Types and How to Manipulate Strings
-- :white_check_mark: [Day 3](day-3): Control Flow and Logical Operators
-- :white_check_mark: [Day 4](day-4): Randomisation and Python Lists
-- :white_check_mark: [Day 5](day-5): Python Loops
-- :white_check_mark: [Day 6](day-6): Python Functions & Karel
-- :white_check_mark: [Day 7](day-7): Hangman
-- :white_check_mark: [Day 8](day-8): Function Parameters & Caesar Cipher
-- :white_check_mark: [Day 9](day-9): Dictionaries, Nesting and the Secret Auction
-- :white_check_mark: [Day 10](day-10): Function Return Values and the Calculator Project
-- :checkered_flag: [Day 11](day-11): Blackjack Capstone Project
-- :white_check_mark: [Day 12](x): Scope and Namespacing in Python
-- :x: [Day 13](x): ~~Debugging: How to Find and Fix Errors in your Code~~
+- :white_check_mark: [Day 1](day-001): Working with Variables in Python to Manage Data
+- :white_check_mark: [Day 2](day-002): Understanding Data Types and How to Manipulate Strings
+- :white_check_mark: [Day 3](day-003): Control Flow and Logical Operators
+- :white_check_mark: [Day 4](day-004): Randomisation and Python Lists
+- :white_check_mark: [Day 5](day-005): Python Loops
+- :white_check_mark: [Day 6](day-006): Python Functions & Karel
+- :white_check_mark: [Day 7](day-007): Hangman
+- :white_check_mark: [Day 8](day-008): Function Parameters & Caesar Cipher
+- :white_check_mark: [Day 9](day-009): Dictionaries, Nesting and the Secret Auction
+- :white_check_mark: [Day 10](day-010): Function Return Values and the Calculator Project
+- :checkered_flag: [Day 11](day-011): Blackjack Capstone Project
+- :white_check_mark: [Day 12](day-012): Scope and Namespacing in Python
+- :white_check_mark: [Day 13](day-013): Debugging: How to Find and Fix Errors in your Code
 - :x: [Day 14](x): ~~Higher Lower Game Project~~
 
 ## 🏋🏻‍♂️ Intermediate
