@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/13/)
+  ![](http://progress-bar.dev/14/)
   
 </div>
 
@@ -20,7 +20,7 @@
 - :checkered_flag: [Day 11](day-011): Blackjack Capstone Project
 - :white_check_mark: [Day 12](day-012): Scope and Namespacing in Python
 - :white_check_mark: [Day 13](day-013): Debugging: How to Find and Fix Errors in your Code
-- :x: [Day 14](x): ~~Higher Lower Game Project~~
+- :white_check_mark: [Day 14](x): Higher Lower Game Project
 
 ## 🏋🏻‍♂️ Intermediate
 
