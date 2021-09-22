@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/16/)
+  ![](http://progress-bar.dev/17/)
   
 </div>
 
@@ -26,7 +26,7 @@
 
 - :white_check_mark: [Day 15](x): Local Development Environment Setup & the Coffee Machine Project
 - :white_check_mark: [Day 16](x): Object Oriented Programming (OOP)
-- :x: [Day 17](x): ~~The Quiz Project & the Benefits of OOP~~
+- :white_check_mark: [Day 17](x): The Quiz Project & the Benefits of OOP
 - :x: [Day 18](x): ~~Turtle Graphics and GUIs~~
 - :x: [Day 19](x): ~~Instances, State and Higher Order Functions~~
 - :x: [Day 20](x): ~~Build the Snake Game Part 1: Animation & Coordinates~~
