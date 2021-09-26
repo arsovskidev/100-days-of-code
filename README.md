@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/20/)
+  ![](http://progress-bar.dev/21/)
   
 </div>
 
@@ -30,7 +30,7 @@
 - :white_check_mark: [Day 18](x): Turtle Graphics and GUIs
 - :white_check_mark: [Day 19](x): Instances, State and Higher Order Functions
 - :white_check_mark: [Day 20](x): Build the Snake Game Part 1: Animation & Coordinates
-- :x: [Day 21](x): ~~Build the Snake Game Part 2: Inheritance & List Slicing~~
+- :white_check_mark: [Day 21](x): Build the Snake Game Part 2: Inheritance & List Slicing
 - :x: [Day 22](x): ~~Build Pong: The Famous Arcade Game~~
 - :x: [Day 23](x): ~~The Turtle Crossing Capstone Project~~
 - :x: [Day 24](x): ~~Files, Directories and Paths~~
