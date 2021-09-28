@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/22/)
+  ![](http://progress-bar.dev/23/)
   
 </div>
 
@@ -32,7 +32,7 @@
 - :white_check_mark: [Day 20](x): Build the Snake Game Part 1: Animation & Coordinates
 - :white_check_mark: [Day 21](x): Build the Snake Game Part 2: Inheritance & List Slicing
 - :white_check_mark: [Day 22](x): Build Pong: The Famous Arcade Game
-- :white_flag: [Day 23](x): ~~The Turtle Crossing Capstone Project~~
+- :checkered_flag: [Day 23](x): The Turtle Crossing Capstone Project
 - :x: [Day 24](x): ~~Files, Directories and Paths~~
 - :x: [Day 25](x): ~~Working with CSV Data and the Pandas Library~~
 - :x: [Day 26](x): ~~List Comprehension & the NATO Pilot's Alphabet~~
