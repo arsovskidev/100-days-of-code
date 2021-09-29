@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/23/)
+  ![](http://progress-bar.dev/24/)
   
 </div>
 
@@ -33,7 +33,7 @@
 - :white_check_mark: [Day 21](x): Build the Snake Game Part 2: Inheritance & List Slicing
 - :white_check_mark: [Day 22](x): Build Pong: The Famous Arcade Game
 - :checkered_flag: [Day 23](x): The Turtle Crossing Capstone Project
-- :x: [Day 24](x): ~~Files, Directories and Paths~~
+- :white_check_mark: [Day 24](x): Files, Directories and Paths
 - :x: [Day 25](x): ~~Working with CSV Data and the Pandas Library~~
 - :x: [Day 26](x): ~~List Comprehension & the NATO Pilot's Alphabet~~
 - :x: [Day 27](x): ~~Tkinter, \*args, \*\*kwargs and Creating GUI Programs~~
