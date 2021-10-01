@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/24/)
+  ![](http://progress-bar.dev/25/)
   
 </div>
 
@@ -34,7 +34,7 @@
 - :white_check_mark: [Day 22](x): Build Pong: The Famous Arcade Game
 - :checkered_flag: [Day 23](x): The Turtle Crossing Capstone Project
 - :white_check_mark: [Day 24](x): Files, Directories and Paths
-- :x: [Day 25](x): ~~Working with CSV Data and the Pandas Library~~
+- :white_check_mark: [Day 25](x): Working with CSV Data and the Pandas Library
 - :x: [Day 26](x): ~~List Comprehension & the NATO Pilot's Alphabet~~
 - :x: [Day 27](x): ~~Tkinter, \*args, \*\*kwargs and Creating GUI Programs~~
 - :x: [Day 28](x): ~~Tkinter, Dynamic Typing and the Pomodoro GUI Application~~
