@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/25/)
+  ![](http://progress-bar.dev/26/)
   
 </div>
 
@@ -35,7 +35,7 @@
 - :checkered_flag: [Day 23](x): The Turtle Crossing Capstone Project
 - :white_check_mark: [Day 24](x): Files, Directories and Paths
 - :white_check_mark: [Day 25](x): Working with CSV Data and the Pandas Library
-- :x: [Day 26](x): ~~List Comprehension & the NATO Pilot's Alphabet~~
+- :white_check_mark: [Day 26](x): List Comprehension & the NATO Pilot's Alphabet
 - :x: [Day 27](x): ~~Tkinter, \*args, \*\*kwargs and Creating GUI Programs~~
 - :x: [Day 28](x): ~~Tkinter, Dynamic Typing and the Pomodoro GUI Application~~
 - :x: [Day 29](x): ~~Building a Password Manager GUI App with Tkinter~~
