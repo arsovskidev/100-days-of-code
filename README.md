@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/26/)
+  ![](http://progress-bar.dev/27/)
   
 </div>
 
@@ -20,23 +20,23 @@
 - :checkered_flag: [Day 11](day-011): Blackjack Capstone Project
 - :white_check_mark: [Day 12](day-012): Scope and Namespacing in Python
 - :white_check_mark: [Day 13](day-013): Debugging: How to Find and Fix Errors in your Code
-- :white_check_mark: [Day 14](x): Higher Lower Game Project
+- :white_check_mark: [Day 14](day-014): Higher Lower Game Project
 
 ## 🏋🏻‍♂️ Intermediate
 
-- :white_check_mark: [Day 15](x): Local Development Environment Setup & the Coffee Machine Project
-- :white_check_mark: [Day 16](x): Object Oriented Programming (OOP)
-- :white_check_mark: [Day 17](x): The Quiz Project & the Benefits of OOP
-- :white_check_mark: [Day 18](x): Turtle Graphics and GUIs
-- :white_check_mark: [Day 19](x): Instances, State and Higher Order Functions
-- :white_check_mark: [Day 20](x): Build the Snake Game Part 1: Animation & Coordinates
-- :white_check_mark: [Day 21](x): Build the Snake Game Part 2: Inheritance & List Slicing
-- :white_check_mark: [Day 22](x): Build Pong: The Famous Arcade Game
-- :checkered_flag: [Day 23](x): The Turtle Crossing Capstone Project
-- :white_check_mark: [Day 24](x): Files, Directories and Paths
-- :white_check_mark: [Day 25](x): Working with CSV Data and the Pandas Library
-- :white_check_mark: [Day 26](x): List Comprehension & the NATO Pilot's Alphabet
-- :x: [Day 27](x): ~~Tkinter, \*args, \*\*kwargs and Creating GUI Programs~~
+- :white_check_mark: [Day 15](day-015): Local Development Environment Setup & the Coffee Machine Project
+- :white_check_mark: [Day 16](day-016): Object Oriented Programming (OOP)
+- :white_check_mark: [Day 17](day-017): The Quiz Project & the Benefits of OOP
+- :white_check_mark: [Day 18](day-018): Turtle Graphics and GUIs
+- :white_check_mark: [Day 19](day-019): Instances, State and Higher Order Functions
+- :white_check_mark: [Day 20](day-020): Build the Snake Game Part 1: Animation & Coordinates
+- :white_check_mark: [Day 21](day-021): Build the Snake Game Part 2: Inheritance & List Slicing
+- :white_check_mark: [Day 22](day-022): Build Pong: The Famous Arcade Game
+- :checkered_flag: [Day 23](day-023): The Turtle Crossing Capstone Project
+- :white_check_mark: [Day 24](day-024): Files, Directories and Paths
+- :white_check_mark: [Day 25](day-025): Working with CSV Data and the Pandas Library
+- :white_check_mark: [Day 26](day-026): List Comprehension & the NATO Pilot's Alphabet
+- :white_check_mark: [Day 27](day-027): Tkinter, \*args, \*\*kwargs and Creating GUI Programs
 - :x: [Day 28](x): ~~Tkinter, Dynamic Typing and the Pomodoro GUI Application~~
 - :x: [Day 29](x): ~~Building a Password Manager GUI App with Tkinter~~
 - :x: [Day 30](x): ~~Errors, Exceptions and JSON Data: Improving the Password Manager~~
