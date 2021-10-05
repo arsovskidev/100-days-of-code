@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/27/)
+  ![](http://progress-bar.dev/28/)
   
 </div>
 
@@ -37,7 +37,7 @@
 - :white_check_mark: [Day 25](day-025): Working with CSV Data and the Pandas Library
 - :white_check_mark: [Day 26](day-026): List Comprehension & the NATO Pilot's Alphabet
 - :white_check_mark: [Day 27](day-027): Tkinter, \*args, \*\*kwargs and Creating GUI Programs
-- :x: [Day 28](x): ~~Tkinter, Dynamic Typing and the Pomodoro GUI Application~~
+- :white_check_mark: [Day 28](day-028): Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - :x: [Day 29](x): ~~Building a Password Manager GUI App with Tkinter~~
 - :x: [Day 30](x): ~~Errors, Exceptions and JSON Data: Improving the Password Manager~~
 - :white_flag: [Day 31](x): ~~Capstone Project - Flash Card App~~
