@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/29/)
+  ![](http://progress-bar.dev/30/)
   
 </div>
 
@@ -39,7 +39,7 @@
 - :white_check_mark: [Day 27](day-027): Tkinter, \*args, \*\*kwargs and Creating GUI Programs
 - :white_check_mark: [Day 28](day-028): Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - :white_check_mark: [Day 29](day-029): Building a Password Manager GUI App with Tkinter
-- :x: [Day 30](x): ~~Errors, Exceptions and JSON Data: Improving the Password Manager~~
+- :white_check_mark: [Day 30](x): Errors, Exceptions and JSON Data: Improving the Password Manager
 - :white_flag: [Day 31](x): ~~Capstone Project - Flash Card App~~
 
 ## 💪 Intermediate+
