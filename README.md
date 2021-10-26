@@ -1,7 +1,7 @@
 <div align="center">
   <h1>100 Days of Code 🐍</h1>
   
-  ![](http://progress-bar.dev/31/)
+  ![](http://progress-bar.dev/32/)
   
 </div>
 
@@ -44,7 +44,7 @@
 
 ## 💪 Intermediate+
 
-- :x: [Day 32](x): ~~Send Email (smtplib) & Manage Dates (datetime): The Automated Birthday Wisher~~
+- :white_check_mark: [Day 32](day-032): Send Email (smtplib) & Manage Dates (datetime): The Automated Birthday Wisher
 - :x: [Day 33](x): ~~API Endpoints and API Parameters - ISS Overhead Notifier~~
 - :x: [Day 34](x): ~~API Practice - Creating a GUI Quiz App~~
 - :x: [Day 35](x): ~~Keys, Authentication & Environment Variables: Send SMS~~
