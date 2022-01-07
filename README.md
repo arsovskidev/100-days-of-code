@@ -46,7 +46,7 @@
 
 - :white_check_mark: [Day 32](day-032): Send Email (smtplib) & Manage Dates (datetime): The Automated Birthday Wisher
 - :white_check_mark: [Day 33](day-033): API Endpoints and API Parameters - ISS Overhead Notifier
-- :x: [Day 34](x): ~~API Practice - Creating a GUI Quiz App~~
+- :white_check_mark: [Day 34](day-034): API Practice - Creating a GUI Quiz App
 - :x: [Day 35](x): ~~Keys, Authentication & Environment Variables: Send SMS~~
 - :x: [Day 36](x): ~~Stock Trading News Alert Project~~
 - :x: [Dau 37](x): ~~Habit Tracking Pixel Project~~
